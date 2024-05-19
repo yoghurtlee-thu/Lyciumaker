@@ -40,19 +40,19 @@ window.onbeforeunload = (event: any) => {
       <div>拼字</div>
     </div>
     <div class="nav-btn" onclick="window.open(href='https://www.bilibili.com/video/BV19P4y1j7n6/')">
-      <div>反馈</div>
+      <div>反馈（原网站）</div>
     </div>
     <div class="nav-btn" onclick="window.open(href='/income/收支与捐赠.html')">
-      <div>收支</div>
+      <div>收支（原网站）</div>
     </div>
     <div class="nav-btn" onclick="window.open('https://github.com/CatScarf/Lyciumaker')">
-      <div>Github</div>
+      <div>Github（原网站）</div>
     </div>
   </div>
 
 
   <div style="padding: 5px; background: #33cc66; font-size: 10px; text-align: center; color: white">
-    感谢大家的捐赠，现在服务器的经济压力大幅缓解，您仍可以
+    （原网站）感谢大家的捐赠，现在服务器的经济压力大幅缓解，您仍可以
     <a href="https://www.bilibili.com/video/BV19P4y1j7n6/" style="display: inline-block; color: white" target="_blank">
       在该视频下充电
     </a>
@@ -79,13 +79,6 @@ window.onbeforeunload = (event: any) => {
     <CharPreview class="relative-center" width='256' :subcvt="refHoverFgs.draw()"></CharPreview>
   </div>
 
-  <div id="bottomBar" style="margin-top:20px; margin-bottom:20px; padding: 5px 5px; background: #d5d5d5;">
-    <a class="bottomInfo" href="http://beian.miit.gov.cn/" target="_blank">吉ICP备2022000349号-1</a>
-    &nbsp&nbsp
-    <img src="/备案图标.png" style="width:20px; height:20px;">
-    <a class="bottomInfo" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=22010402001039"
-      target="_blank">吉公网安备22010402001039号</a>
-  </div>
 </template>
 
 <style scoped>
